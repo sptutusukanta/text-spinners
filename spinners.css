@@ -184,12 +184,12 @@
 }
 
 .loading.matrix::after {
-  content:"░ ░░░░\A░░ ░░░\A░░░ ░░\A░░░░ ░\A░░░░ ░\A░░░ ░░\A░░ ░░░\A░ ░░░░";
-  animation: spin8 1s steps(8) infinite;
+  content:"░ ░░░░\A░░ ░░░\A░░░ ░░\A░░░░ ░";
+  animation: spin4 .5s steps(4) infinite alternate;
 }
 
 .loading.square::after {
-  content: "◰\A◱\A◲\A◳";
+  content: "◰\A◳\A◲\A◱";
   animation: spin4 1s steps(4) infinite;
 }
 
